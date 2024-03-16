@@ -1,0 +1,42 @@
+.img1{
+    height: 150px;
+    width: 150px;
+    border-radius: 50px 0 50px 0;
+    padding: 10px;
+    border: 1px solid white;
+
+}
+.t{
+    display: flex;
+    justify-content: space-evenly;
+    background: rgba(0, 0, 0, 0.5);;
+    margin-top: 20px;
+}
+body{
+    background: url(./mcu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    color: antiquewhite;
+    background: rgba(0, 0, 0, 0.5);
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    font-size: x-large;
+}
+.name{
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.5);;
+    width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: large;
+
+}
+.img1:hover{
+    height: 200px;
+    width: 200px;
+}
